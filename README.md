@@ -28,7 +28,7 @@
 ---
 
 > [!TIP]
-> **Launch Live Web App Directly in Browser**: Try MakeSpace on your iPhone, Android, Mac, or Windows PC at **[https://makespace.midaz.dev](https://makespace.midaz.dev)**. Zero sign-up, zero ads, 100% free!
+> **No installation required to use**: Try the live web app directly in your browser on phone or PC at **[https://makespace.midaz.dev](https://makespace.midaz.dev)**. Zero sign-up, zero ads, 100% free!
 
 ---
 
@@ -51,12 +51,17 @@
 
 Converting uncompressed camera photos into modern **WebP** shrinks file weight dramatically with **virtually zero human-perceptible visual loss**:
 
-| Format & Source | Original Size | WebP (80% Sweet Spot) | Space Saved |
-| :--- | :---: | :---: | :---: |
-| 🍏 **iPhone 15 Pro HEIC** | `4.8 MB` | **`620 KB`** | **🔥 -87%** |
-| 📸 **Android Camera JPG** | `6.2 MB` | **`780 KB`** | **🔥 -87%** |
-| 🎨 **Heavy Screenshot / PNG** | `3.4 MB` | **`410 KB`** | **🔥 -88%** |
-| 📁 **Holiday Album (100 Photos)** | `580 MB` | **`68 MB`** | **🎉 +512 MB Free Space!** |
+<p align="center">
+  <img src="public/benchmark-proof.jpg" alt="Midaz MakeSpace Real Test Benchmark: 73 Photos Reclaimed 672.8 MB (98% Smaller)" width="680" style="border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);" />
+</p>
+
+| Format & Real-World Test | Original Size | WebP (80% Sweet Spot) | Space Saved | Real Result |
+| :--- | :---: | :---: | :---: | :---: |
+| 🍏 **iPhone Real Test (73 Photos)** | `684.7 MB` | **`11.9 MB`** | **🔥 -98%** | **🎉 +672.8 MB Storage Reclaimed!** |
+| 🍏 **iPhone 15 Pro HEIC** | `4.8 MB` | **`620 KB`** | **🔥 -87%** | **Instant 4.2 MB Free** |
+| 📸 **Android Camera JPG** | `6.2 MB` | **`780 KB`** | **🔥 -87%** | **Instant 5.4 MB Free** |
+| 🎨 **Heavy Screenshot / PNG** | `3.4 MB` | **`410 KB`** | **🔥 -88%** | **Instant 3.0 MB Free** |
+| 📁 **Holiday Album (100 Photos)** | `580 MB` | **`68 MB`** | **🎉 -88%** | **+512 MB Free Space!** |
 
 ---
 
@@ -75,7 +80,7 @@ Compressing 200+ high-res photos at once can crash phone browsers. MakeSpace sli
 Accidentally refreshed the tab or lost battery midway? MakeSpace automatically saves your session checkpoints in local storage, allowing you to resume right where you left off with 1 click.
 
 ### 📁 5. Auto Folder Naming & Direct PC Folder Saving
-- Upload an entire folder named `holiday2026` ➔ Download is automatically named `holiday2026-optimized-webp.zip`.
+- Upload an entire folder named `rumahku` ➔ Download is automatically named `rumahku-optimized-webp.zip`.
 - Original filenames are preserved cleanly (`bali1.jpg` ➔ `bali1.webp`).
 - **Desktop Chrome / Edge**: Features **`📁 Save Directly to PC Folder`** using the *File System Access API* — writes all WebP photos directly to your hard drive without needing to unzip!
 
@@ -116,7 +121,7 @@ Install MakeSpace as a standalone app on your iPhone (via *Safari ➔ Add to Hom
 * **Transcoding Engine**: HTML5 Canvas 2D API + `heic2any` WebAssembly
 * **Archiving & File System**: `JSZip` + W3C File System Access API
 * **State & Persistence**: LocalStorage Session Store + URL Object Blobs
-* **Production Deployment**: Cloudflare Edge Infrastructure (`makespace.midaz.dev`)
+* **Live Deployment**: Continuous Cloud Delivery (`makespace.midaz.dev`)
 
 ---
 
